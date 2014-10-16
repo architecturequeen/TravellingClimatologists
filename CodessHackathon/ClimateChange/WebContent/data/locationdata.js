@@ -1,0 +1,61 @@
+var locationdata ={ 
+ 
+ "alaska" : {
+  "coordinates": [59.104893, -136.38217],
+  "countryName": "Alaska, USA",
+  "siteName": "Muir Glacier",
+  "disasterType": "ice",
+  "temporalStatus": "present"
+ },
+  
+ "utah" :{
+"coordinates": [40.522376, -112.149381],
+  "countryName": "Utah, USA",
+  "siteName": "Bingham Canyon Mine, Salt Lake City",
+  "disasterType": "trees",
+  "temporalStatus": "present"
+ },
+
+ "philippines" :{
+"coordinates": [40.5221684,-112.1493862],
+  "countryName": "Philippines",
+  "siteName": "Haiyan Typhoon",
+  "disasterType": "storm",
+  "temporalStatus": "present"
+ },
+
+
+
+ "france" :{
+"coordinates": [45.896493, 6.919339],
+  "countryName": "France",
+  "siteName": "Mer de Glace",
+  "disasterType": "ice",
+  "temporalStatus": "present"
+ },
+
+ "london" :{
+"coordinates": [51.5072, 0.1275],
+  "countryName": "United Kingdom",
+  "siteName": "Big Ben, London",
+  "disasterType": "water",
+  "temporalStatus": "future"
+ },
+
+ "china" :{
+"coordinates": [35.0000, 96.0000],
+  "countryName": "China",
+  "siteName": "Qinghai Province",
+  "disasterType": "storm",
+  "temporalStatus": "present"
+ },
+
+ "brazil" :{
+"coordinates": [3.1000, 60.0167],
+  "countryName": "Brazil",
+  "siteName": "Amazon Forest, Manaus",
+  "disasterType": "trees",
+  "temporalStatus": "present"
+ }
+
+ };

@@ -1,0 +1,51 @@
+var locationdata ={ 
+ 
+ "alaska" : {
+  "coordinates": [59.104893, -136.38217],
+  "countryName": "Alaska, USA",
+  "siteName": "Muir Glacier",
+  "disasterType": "Glacier",
+  "temporalStatus": "present"
+ },
+  
+ "ecuador" :{
+"coordinates": [-0.680556, -78.437778],
+  "countryName": "Ecuador",
+  "siteName": "Cotopaxi Glacier",
+  "disasterType": "Glacier",
+  "temporalStatus": "present"
+ },
+
+ "switzerland" :{
+"coordinates": [32.84000,-113.9100],
+  "countryName": "Switzerland",
+  "siteName": "Morgenhorn Glacier",
+  "disasterType": "Glacier",
+  "temporalStatus": "present"
+ },
+
+"switzerland" :{
+"coordinates": [48.3600, -121.0575],
+  "countryName": "Washington, USA",
+  "siteName": "South Cascade Glacier",
+  "disasterType": "Glacier",
+  "temporalStatus": "present"
+ },
+
+ "utah" :{
+"coordinates": [40.522376, -112.149381],
+  "countryName": "Utah, USA",
+  "siteName": "Bingham Canyon Mine, Salt Lake City",
+  "disasterType": "Deforestation",
+  "temporalStatus": "present"
+ },
+
+ "philippines" :{
+"coordinates": [40.5221684,-112.1493862],
+  "countryName": "Philippines",
+  "siteName": "Haiyan Typhoon",
+  "disasterType": "Extreme Weather",
+  "temporalStatus": "present"
+ }
+
+ };

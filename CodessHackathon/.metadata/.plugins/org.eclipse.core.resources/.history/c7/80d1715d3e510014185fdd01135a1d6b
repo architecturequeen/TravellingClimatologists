@@ -1,0 +1,19 @@
+var locationdata ={ 
+	
+	"alaska" : {
+		
+		"c": [59.104893, -136.382179],
+		"countryName": "alaska",
+		"imgUrl": "disasterType"
+		
+	},
+	
+	
+	"ecuador" : {
+		
+		"c":  [-0.680556, -78.437778]
+		
+	}
+
+	};
+

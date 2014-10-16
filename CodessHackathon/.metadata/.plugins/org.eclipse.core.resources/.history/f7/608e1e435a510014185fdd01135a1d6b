@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure//pure.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure//grids-responsive-old-ie.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure//grids-responsive.css">
+    <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <link rel="stylesheet" href="css/layouts/marketing.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:900' rel='stylesheet' type='text/css'>
+     <script src="jquery/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.tubular.1.0.js"></script>
+</head>
+<body>
+
+<div id = "wrapper">
+
+<div class="splash-container">
+    <div class="splash">
+        <h1 class="splash-head">Travelling Climatologist</h1>
+        <p class="splash-subhead">
+            Travel the world and explore
+        </p>
+        <p>
+            <a href="#" class="pure-button pure-button-primary">
+                <i class="fa fa-plane"></i>
+                PLAY!
+            </a>
+        </p>
+    </div>
+</div>
+
+</div>
+
+<script>
+    $(document).ready(function() {
+        $('#wrapper').tubular({videoId: 'CPF72Ys49O4'}); // where idOfYourVideo is the YouTube ID.
+    });
+</script>
+
+</body>
+</html>

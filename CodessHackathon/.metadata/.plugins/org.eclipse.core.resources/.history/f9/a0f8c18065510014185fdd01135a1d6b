@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 
+ 
+ <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+-->
+
+ <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="leaflet-0.7.3/leaflet.css" /> 
+ <script src="leaflet-0.7.3/leaflet.js"></script> 
+  <script src="data/countries.js"></script> 
+  <script src="data/locationdata.js"></script>
+ <script src="js/markerfunctions.js"></script>
+ <script src="jquery/jquery-1.11.1.min.js"></script>
+
+ 
+ 
+ 
+
+<script>
+var currentLocation;
+var lastLocation= "";
+var countriesVisited ={};
+var icePoints= 0;
+var waterPoints=0;
+var treePoints=0;
+var stormPoints=0;
+</script>
+
+<meta charset="UTF-8">
+<title>The Travelling Climatologist - Learn and Explore!</title>
+</head>
+<body>
+
+
+ 
+ 
+<div id="headericon">
+<img src="img/hot-air-balloon6.png" alt="Balloon" style="width:50px;height:50px">
+</div>
+ 
+ <div id="header">
+<h1>The Travelling Climatologist - Learn and Explore!</h1>
+</div>
+ 
+<div id="left">
+
+ <h2>Points</h2>
+ <div id="ice">
+ <img src="img/glacier.png" alt="Ice" style="width:50px;height:50px">
+<span>0</span>
+</div>
+
+<div id="water">
+ <img src="img/water.png" alt="Water" style="width:50px;height:50px">
+<span>0</span>
+</div>
+
+<div id="storm">
+ <img src="img/storm.png" alt="Storm" style="width:50px;height:50px">
+<span>0</span>
+</div>
+
+<div id="trees">
+ <img src="img/tree.png" alt="Trees" style="width:50px;height:50px">
+<span>0</span>
+</div>
+</div>
+
+<div id="panel">
+<div id="panel_welcome">
+
+</div>
+
+<div id="panel_facts">
+
+<div id="places">
+You have been to:
+</div>
+<br/>
+</div>
+
+<div id="panel_bottom">
+
+<button onclick="goHome()"> Go Home </button>
+ 
+</div>
+</div>
+
+<div id="map"></div>
+
+<div id="right">
+
+<b>Useful Links</b>
+<br/>
+<a href=" http://en.wikipedia.org/wiki/Climate_change">Climate change</a>
+<br/>
+
+<a href="http://en.wikipedia.org/wiki/Deforestation">Deforestation</a>
+<br/>
+<a href="Flooding http://en.wikipedia.org/wiki/Flood">Floods</a>
+<br/>
+
+<a href="http://en.wikipedia.org/wiki/Typhoon">Typhoon</a>
+ <br/>
+
+<a href="http://en.wikipedia.org/wiki/Dust_storm">Dust Storm</a>
+ 
+<br/>
+<a href="http://en.wikipedia.org/wiki/Glacier">Glacier</a>
+ 
+<br/>
+<a href="http://en.wikipedia.org/wiki/Ice_sheet">Ice Sheet</a>
+ 
+<br/>
+<a href="http://en.wikipedia.org/wiki/Carbon_dioxide_in_Earth%27s_atmosphere">Co2 emissions</a>
+
+</div>
+
+<script>
+
+$("#panel").hide();
+
+//create a map in the "map" div, set the view to a given place and zoom
+<!--var map = L.map('map').setView([51.505, -0.09], 13); -->
+var map = L.map('map').setView([38.82259, -2.8125], 2);
+
+// add an OpenStreetMap tile layer
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+
+
+
+// add a marker in the given location, attach some popup content to it and open the popup
+
+//var marker = L.marker([51.5, -0.09]);
+//marker.addTo(map);
+
+
+addMarkers();
+
+</script>
+
+</body>
+</html>

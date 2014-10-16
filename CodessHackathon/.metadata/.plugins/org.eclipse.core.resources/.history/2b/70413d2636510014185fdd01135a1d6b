@@ -1,0 +1,16 @@
+var locationdata ={ 
+	
+	"alaska" : {
+		
+		"coordinates": [59.104893, -136.382179],
+		"name": "blaa"
+		
+	},
+	
+	
+	"iceland" :{
+		
+	}
+
+	}
+

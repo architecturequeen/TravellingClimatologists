@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#left {
+    
+    float: left;
+    width:150px;
+    border-style: solid;
+     padding-left: 10px;
+     postion:relative;
+}
+
+#map{
+	float: left;
+	 margin-left: 5px;
+	 border-style: solid;
+	 width:900px;
+	  height: 380px; 
+		postion:relative;
+}
+
+#panel{
+	
+	background:yellow;
+   height:500px;
+   width:350 px;
+   z-index: 200;
+   position: fixed;
+   
+}
+
+#right{
+   width:100px;
+float: left;
+  border-style: solid;
+   padding-left: 10px;
+   margin-left: 5px;
+   postion:relative;
+}

@@ -1,0 +1,23 @@
+var locationdata= {
+		
+		{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [59.104893, -136.382179]
+  },
+  "properties": {
+    "name": "Muir Glacier, Alaska, USA"
+  },
+
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-0.680556, -78.437778]
+  },
+  "properties": {
+    "name": "Cotopaxi Glacier, Ecuador"
+  }
+}
+		}
